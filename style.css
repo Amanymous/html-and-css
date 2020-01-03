@@ -1,0 +1,87 @@
+/* li,div{ 
+    color: rgb(174, 0, 255);
+} */
+/* -----------------1---------- */
+
+/* .vl{
+    color:rgb(200,150,100);
+    color: hsl(10%, 200%, 99%);
+
+} */
+
+body{
+    /* background-color: aqua; */
+    background-image: url("masks.jpeg");
+    background-repeat:no-repeat ;
+    background-position: right top;
+    background-attachment: fixed;
+    background: #818169 ;
+    margin-top: 0;
+}
+.nav{
+    background: #818169 ;
+    list-style-type: square;
+}
+.items{
+    background: #000000;
+    margin:0;
+    height: 24px;
+    list-style-type: none;
+    padding: 24px 0;
+    width: 50%;
+    margin-left: auto;
+}
+
+.item{
+    /* background: #6b6981 ; */
+    display: inline;
+    margin-left: auto;
+}
+
+.vl{
+    /* border-style: solid;
+    border-top: dashed;
+    border-width: 2px;
+    background-color: rgb(122, 0, 245); */
+    border: 5px solid salmon;
+    border-radius: 8px;
+    /* margin-top: 84px;
+    margin-left: 100;
+    margin-right: 90; *
+    margin-right: 90; */
+margin: auto;
+/* margin: 23px 40px 0px 20px; */
+margin: inherit;
+padding: 50px;
+width: 50%;
+height: 440px;
+outline: 4px solid black;
+color: orange;
+text-align: center;
+text-decoration: none;
+word-spacing: 2px;
+text-shadow: 10px;
+direction: initial;
+font-family: sans-serif;
+font-style: unset;
+font-size: 1.4vw;
+/* vm use hota ha responsive ky liye */
+/* 1em=8px */
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    background-color: yellow;
+    color: black;
+    font-size: 1.5em;
+}
+
+a:active{
+    font-size: 1.5em;
+}
+.class
